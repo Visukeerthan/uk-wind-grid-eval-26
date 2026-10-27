@@ -15,7 +15,7 @@ import {
 } from "recharts";
 import { Activity, Wind, AlertTriangle, TrendingUp, Calendar, Zap } from "lucide-react";
 
-const API_BASE = "http://127.0.0.1:8000";
+const API_BASE = "https://uk-wind-grid-eval-26.onrender.com";
 
 interface SummaryMetrics {
   mae_mw: number;
